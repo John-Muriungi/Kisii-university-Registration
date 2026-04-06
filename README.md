@@ -2,7 +2,7 @@
 
 A full-stack, database-driven desktop application designed for managing student enrollments, course catalogs, and academic transcript tracking. Built using Java Swing for a responsive Graphical User Interface (GUI) and MySQL via XAMPP for secure data persistence.
 
----
+
 
 ## 📌 Project Overview
 This software was developed to simulate a multi-department university registration platform. It utilizes the **Model-View-Controller (MVC)** architectural pattern to cleanly decouple database operations, system logic, and interactive display frames.
@@ -18,7 +18,7 @@ This software was developed to simulate a multi-department university registrati
 * **Registrar Dashboard:** Uses a tabbed navigation structure to enter newly authorized courses or live-stream current student class enrollments via relational SQL joins.
 * **Enrollment & Transcript Tracker:** Dynamically fetches full student profiles and computes real-time progression toward graduation requirements.
 
----
+
 
 ## 🛠️ Tech Stack & Dependencies
 
@@ -27,7 +27,7 @@ This software was developed to simulate a multi-department university registrati
 * **Database:** MySQL (Hosted via XAMPP)
 * **Bridge Driver:** MySQL Connector/J JDBC Driver
 
----
+
 
 ## 🗃️ Database Architecture
 The system operates on a relational database named `kisii_university` using three primary tables:
@@ -38,7 +38,7 @@ The system operates on a relational database named `kisii_university` using thre
 | **`courses`** | `course_id` | Stores subject details and physical/virtual time slots. |
 | **`enrollments`** | Composite Key | Acts as a bridge handling active relationships between students and registered courses. |
 
----
+
 
 ## ⚙️ Installation & Setup
 
